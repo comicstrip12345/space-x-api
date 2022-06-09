@@ -61,7 +61,7 @@ const SearchFunction = () => {
                             <div className='col-6 tiles' key={{index}}>
                                 <div data-aos="fade-up" className='tile'>
                                     <p>
-                                        {data.mission_name}{data.launch_year}<span></span>
+                                        {data.mission_name}<span>{data.launch_year}</span>
                                         {data.launch_success ? <i class="bi bi-check-circle-fill" style={{color:"green"}}></i> 
                                         : <i class="bi bi-check-circle-fill" style={{color:"red"}}></i> }
                                     </p>
