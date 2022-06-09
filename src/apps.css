@@ -1,0 +1,85 @@
+nav {
+  background-image: linear-gradient(90deg, #3BACB6, #82DBD8);
+}
+
+nav h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 2vw;
+  color: white;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  margin-bottom: 0;
+}
+
+section.search {
+  margin-top: 6vh;
+}
+
+section.search .searchBar {
+  margin-bottom: 6vh;
+  font-family: Quicksand;
+  font-weight: 700;
+}
+
+section.search .searchBar input {
+  width: 30vw;
+  border: 1px solid black;
+}
+
+section.search .searchBar label {
+  margin-left: 2vh;
+}
+
+section.search .searchResults .tiles {
+  padding: 6vh;
+}
+
+section.search .searchResults .tiles .tile {
+  margin-bottom: 4vh;
+  border: 1px solid black;
+  padding: 4vh;
+  border-radius: 2vh;
+}
+
+section.search .searchResults .tiles .tile p {
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+section.search .searchResults .tiles .tile p span {
+  font-weight: 400;
+  margin-left: 0.5vw;
+  font-size: 2vh;
+}
+
+section.search .searchResults .tiles .tile p.details {
+  font-weight: 400;
+}
+
+section.search .searchResults .tiles .tile p i {
+  float: right;
+}
+
+section.search .searchResults .tiles .tile a {
+  text-decoration: none;
+  color: black;
+}
+
+section.search .searchResults .tiles .tile a:hover {
+  color: #3BACB6;
+}
+
+section.search .searchResults .spinner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.search .searchResults h1.endOfLine {
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
